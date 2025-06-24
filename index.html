@@ -11,7 +11,7 @@
       --primary-color-dark: #229E87;
       --highlight-yellow: #FDE032;
       --star-color: #FFD700;
-      --bg-green-light: #E8F8F5; /* تم تصحيح الاسم من gb- إلى bg- */
+      --bg-green-light: #E8F8F5;
       --font-main: 'Arial', sans-serif;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -23,7 +23,6 @@
     }
     a { text-decoration: none; }
 
-    /* أعلى الصفحة */
     .top-banner {
       background: var(--banner-red);
       color: #fff;
@@ -39,7 +38,6 @@
       padding: 20px;
     }
 
-    /* تقييم ومبيعات */
     .rating-sales {
       display: flex;
       justify-content: center;
@@ -54,7 +52,6 @@
       font-size: 20px;
     }
 
-    /* العنوان الرئيسي */
     .main-title {
       text-align: center;
       font-size: 28px;
@@ -63,7 +60,6 @@
       line-height: 1.2;
     }
 
-    /* قسم السعر */
     .price {
       text-align: center;
       margin: 10px 0;
@@ -88,7 +84,6 @@
       color: #555;
     }
 
-    /* الوصف والهدايا */
     .description,
     .material {
       text-align: center;
@@ -103,7 +98,6 @@
       font-size: 16px;
     }
 
-    /* زر اطلب الآن */
     .order-now-box {
       text-align: center;
       margin: 20px 0;
@@ -118,7 +112,6 @@
       font-weight: bold;
     }
 
-    /* أقسام ملوّنة */
     .highlight-section {
       border-radius: 8px;
       padding: 20px;
@@ -167,7 +160,6 @@
       color: #000;
     }
 
-    /* صندوق الهدية */
     .gift-box {
       text-align: center;
       margin: 30px 0;
@@ -182,7 +174,6 @@
       height: auto;
     }
 
-    /* شبكة المراجعات */
     .reviews {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -197,159 +188,3 @@
     .review-card h3 {
       font-size: 16px;
       font-weight: bold;
-      margin-bottom: 6px;
-    }
-    .review-card p {
-      font-size: 14px;
-      color: #555;
-      margin-bottom: 10px;
-    }
-    .review-card .stars {
-      color: var(--star-color);
-      font-size: 18px;
-    }
-
-    /* زر الطلب الكبير */
-    .order-section {
-      text-align: center;
-      margin: 30px 0;
-    }
-    .order-section .btn {
-      padding: 16px 40px;
-      font-size: 20px;
-    }
-
-    /* قسم النموذج */
-    .order-form {
-      margin: 30px 0;
-      text-align: center;
-    }
-    .order-form h2 {
-      font-size: 22px;
-      margin-bottom: 20px;
-    }
-    .secure {
-      font-size: 12px;
-      color: #999;
-      margin-top: 10px;
-    }
-  </style>
-</head>
-<body>
-
-  <div class="top-banner">
-    خصم 200 جنيه &nbsp; هدية علبة ألوان فلوماستر 🎁
-  </div>
-
-  <div class="container">
-
-    <div class="rating-sales">
-      <span>984343 عملية شراء</span>
-      <span class="stars">★★★★★</span>
-    </div>
-
-    <h1 class="main-title">
-      بوسترات التلوين العملاقة<br>
-      عرض بوكس 3 بوسترات + هدية 🎁 علبة ألوان فلوماستر 12 لون
-    </h1>
-
-    <div class="price">
-      <span class="label">السعر:</span>
-      <span class="old-price">EGP600</span>
-      <span class="new-price">EGP399</span>
-    </div>
-
-    <p class="description">
-      البوكس يحتوي على 3 لوحات تلوين بـ أشكال مختلفة (مزرعة – فضاء – حديقة الحيوان)
-    </p>
-    <p class="gift">
-      🎁 علبة ألوان فلوماستر 12 لون هدية 🎁
-    </p>
-    <p class="material">
-      مصنوعة من ورق قوي عشان يستحمل شقاوتهم
-    </p>
-
-    <div class="order-now-box">
-      <a href="#form" class="btn">اطلب الآن</a>
-    </div>
-
-    <section class="highlight-section yellow-bg">
-      <h2>أحلى هدية لطفلك مسلية ومفيدة وكمان هتنسسيه التلفون للأبد!!</h2>
-      <ul class="benefits">
-        <li>كبيرة ومليانة تفاصيل وحرفيًا مش بتخلص 😂</li>
-        <li>مفيدة وهاتمني إبداعهم وتبعدهم عن الموبايل!</li>
-        <li>بوسترات التلوين العملاقة هدية تفرح أطفالك</li>
-        <li>أكبر لوحات تلوين مساحتها 1 متر × 70 سم</li>
-        <li>🎁 علبة ألوان فلوماستر 12 لون هدية 🎁</li>
-        <li>يعني تلوين طول الإجازة!</li>
-        <li>حاصلة على تقييم ★★★★★ من عملائنا</li>
-      </ul>
-      <div class="review-cta">
-        <a href="#form" class="btn">سجل طلبك الآن</a>
-        <div class="timer">باقي 19 ساعة على انتهاء الخصم</div>
-      </div>
-    </section>
-
-    <section class="highlight-section green-bg">
-      <h2>الكرتونة تحتوي على 3 لوحات مختلفة</h2>
-    </section>
-
-    <section class="gift-box">
-      <h2>🎁 هدية 🎁 علبة ألوان فلوماستر 12 لون</h2>
-      <img src="giotto-turbo-color.png" alt="علبة ألوان فلوماستر 12 لون" class="main-image">
-    </section>
-
-    <section class="reviews">
-      <div class="review-card">
-        <h3>د/ محمد</h3>
-        <p>الطلب وصل ألف شكر على المعاملة الحسنة أول مرة أتعامل مع حد في مصر على هذا القدر من الخلق والشيك، مليون شكرًا لحضراتكم</p>
-        <div class="stars">★★★★★</div>
-      </div>
-      <div class="review-card">
-        <h3>عبدالله</h3>
-        <p>بصراحة ممتازة استخدمتها في مكان العمل ممتع جدًا</p>
-        <div class="stars">★★★★★</div>
-      </div>
-      <div class="review-card">
-        <h3>نور سليم</h3>
-        <p>لوحات جميلة وتفاصيل رائعة، أثرت بشكل إيجابي على إبداع أطفالي.</p>
-        <div class="stars">★★★★★</div>
-      </div>
-      <div class="review-card">
-        <h3>ليلى عواد</h3>
-        <p>جميلة جدًا وخاصة الورق حلو شكرًا</p>
-        <div class="stars">★★★★★</div>
-      </div>
-      <div class="review-card">
-        <h3>د. سوزان</h3>
-        <p>الورود وصلت وجميلة جدًا رسومات رائعة وخاصة الورق حلو جدًا تسلموا وإن شاء الله نتعامل مع بعض دائمًا ❤️</p>
-        <div class="stars">★★★★★</div>
-      </div>
-      <div class="review-card">
-        <h3>Fatma Ragab</h3>
-        <p>شكرًا لكم تاني بجد الأوردر وصل تحفة تسلم إيديكم، متقلّقش مع المستوى الراقي ده قبل كده</p>
-        <div class="stars">★★★★★</div>
-      </div>
-    </section>
-
-    <div class="order-section">
-      <a href="#form" class="btn">سجل طلبك الآن واحصل على شحن مجانًا</a>
-    </div>
-
-    <section id="form" class="order-form">
-      <h2>سجل بياناتك بالتفصيل لإتمام الطلب</h2>
-      <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSfSiWuA_jCo_6ZH5UEeWaOnFJfQIg8XriDgzbpmQV-L3IiFuw/viewform?embedded=true"
-        width="100%"
-        height="800"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0">
-        جاري التحميل…
-      </iframe>
-      <p class="secure">🔒 Secure and encrypted</p>
-    </section>
-
-  </div>
-</body>
-</html>
